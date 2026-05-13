@@ -1,5 +1,17 @@
+import Hero from "./MainComponents/Hero";
+import Highlight from "./MainComponents/Highlight";
+import Testimonials from "./MainComponents/Testimonials";
+import About from "./MainComponents/About";
+
 function Main() {
-  return <main></main>;
+  return (
+    <main>
+      <Hero />
+      <Highlight />
+      <Testimonials />
+      <About />
+    </main>
+  );
 }
 
 export default Main;
