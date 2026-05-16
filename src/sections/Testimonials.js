@@ -1,7 +1,7 @@
 import cust1 from "../images/customer1.jpg";
 import cust2 from "../images/customer2.jpg";
 import cust3 from "../images/customer5.jpg";
-import StarRating from "./StarRating";
+import StarRating from "../components/StarRating";
 
 function Testimonials() {
   return (

@@ -1,4 +1,4 @@
-import LogoF from "./images/LLfooter.png";
+import LogoF from "../images/LLfooter.png";
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
             <a href="/home">Home</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="/menu">Menu</a>

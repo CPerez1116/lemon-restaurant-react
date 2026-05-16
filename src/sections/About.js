@@ -2,7 +2,7 @@ import mario from "../images/Mario and Adrian A.jpg";
 
 function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="about-text">
         <h2>Little Lemon</h2>
         <h3>Chicago</h3>

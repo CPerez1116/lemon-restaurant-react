@@ -1,12 +1,11 @@
 import "./App.css";
-import Header from "./Header";
+import Header from "./components/Header";
 import Main from "./Main";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
-import About from "./MainComponents/About";
 import Menu from "./pages/Menu";
 import Reservations from "./pages/Reservations";
 import Order from "./pages/Order";
@@ -18,7 +17,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/order" element={<Order />} />

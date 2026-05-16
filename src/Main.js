@@ -1,7 +1,7 @@
-import Hero from "./MainComponents/Hero";
-import Highlight from "./MainComponents/Highlight";
-import Testimonials from "./MainComponents/Testimonials";
-import About from "./MainComponents/About";
+import Hero from "./sections/Hero";
+import Highlight from "./sections/Highlight";
+import Testimonials from "./sections/Testimonials";
+import About from "./sections/About";
 
 function Main() {
   return (

@@ -1,4 +1,4 @@
-import Logo from "./images/Logo.svg";
+import Logo from "../images/Logo.svg";
 import { Link } from "react-router-dom";
 
 function Nav() {
@@ -10,7 +10,7 @@ function Nav() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <a href="#about">About</a>
         </li>
         <li>
           <Link to="/menu">Menu</Link>
