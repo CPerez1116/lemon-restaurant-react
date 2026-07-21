@@ -1,13 +1,16 @@
 import salad from "../images/greek salad.jpg";
 import bruchetta from "../images/bruchetta.svg";
 import lemonDessert from "../images/lemon dessert.jpg";
+import { Link } from "react-router-dom";
 
 function Highlight() {
   return (
     <section className="highlight">
       <div className="highlight-header">
         <h2>This Week's specials!</h2>
-        <button>Online menu</button>
+        <Link to="/order" className="highlight-link">
+          Online menu
+        </Link>
       </div>
       {/* cards for weekly specials */}
       <div className="specials-container">
@@ -23,9 +26,9 @@ function Highlight() {
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.
             </p>
-            <a href="#" className="card-order-button">
+            <Link to="/order" className="highlight-link">
               Order a delivery
-            </a>
+            </Link>
           </div>
         </article>
 
@@ -40,9 +43,9 @@ function Highlight() {
               Our Bruschetta is made from grilled bread that has been smeared
               with garlic and seasoned with salt and olive oil.
             </p>
-            <a href="#" className="card-order-button">
+            <Link to="/order" className="highlight-link">
               Order a delivery
-            </a>
+            </Link>
           </div>
         </article>
 
@@ -58,9 +61,9 @@ function Highlight() {
               ingredient has been sourced and is as authentic as can be
               imagined.
             </p>
-            <a href="#" className="card-order-button">
+            <Link to="/order" className="highlight-link">
               Order a delivery
-            </a>
+            </Link>
           </div>
         </article>
       </div>

@@ -1,4 +1,5 @@
 import heroImg from "../images/hero.jpg";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -11,7 +12,9 @@ function Hero() {
             Experience the best Mediterranean cuisine in Chicago at Little Lemon
             restaurant, where tradition meets innovation!
           </p>
-          <button className="hero-button">Reserve a Table</button>
+          <Link to="/reservations" className="hero-button">
+            Reserve a Table
+          </Link>
         </div>
         <img src={heroImg} alt="Hero Food" className="hero-image" />
       </div>
